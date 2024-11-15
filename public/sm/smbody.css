@@ -1,0 +1,370 @@
+.container{
+    width: 100%;
+    height: 4730px;
+    .pic-top{
+        width: 100%;
+        height: 655px;
+        margin-top: 60px;
+        position: relative;
+        background-image: url(../fonts/Rectangle3-tablet.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+      
+        .text-on-pic{
+            width: 366px;
+            height: 240px;
+            position: absolute;
+            top: 350px;
+            left: 40px;
+            .top-text{
+                font-size: 64px;
+                font-weight: 400;
+                color: white;
+                font-family: cormorant;
+            }
+            .mid-text{
+                font-family: mont;
+                font-size: 18px;
+                font-weight: 400;
+                color: white;
+                margin-top: 18px;
+                margin-bottom: 15px;
+            }
+            .btn{
+                width: 140px;
+                height: 40px;
+                border: 1px solid white;
+                text-align: center;
+                line-height: 40px;
+                 font-size: 16px;
+                font-family: mont;
+                color: white;
+                transition-duration: 300ms;
+                  &:hover {
+                    background-color: white;
+                
+                    color: #0C0606;
+                   }
+                }
+        }
+      
+    }
+    .part-2{
+        width: 100%;
+        height: 530px;
+        padding: 60px 70px 60px 70px;
+        background-color: white;
+        text-align: center;
+        .shop-titr{
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            color: #0C0606;
+            .top-titr{
+                font-family: cormorant;
+                font-size: 32px;
+                font-weight: 400;
+                text-align: center;
+            }
+            .bot-titr{
+                font-family: cormorant;
+                font-style: italic;
+                font-size: 16px;
+                font-weight: 400;
+                padding-top: 10px;
+                color: #0C0606;
+                
+            }
+        }
+        .cards{
+         display: none;
+              
+            
+        }
+       .shop-menu{
+        width: 100%;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        margin-top: 80px;
+        & p{
+            height: 40px;
+            font-size: 24px;
+            font-weight: 700;
+            color: #705B4F;
+
+        }
+        &:hover{
+            cursor: pointer;
+        }
+       }
+
+    }
+    .part3{
+        width: 100%;
+        height: 620px;
+        position: relative;
+       
+        
+        .p3-pic{
+            width: 100%;
+            height: 100%;
+            & img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .p3-text{
+            width: 100%;
+            height: 100%;
+            padding: 100px 40px 40px 60px;
+            background-color: rgba(0, 0, 0, 0.588);
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            & p{
+                color: white;
+
+            }
+            .article{
+                font-size: 12px;
+                margin-bottom: 47px;
+            }
+            .p3-titr{
+                font-size: 35px;
+                font-weight: 700;
+                font-family: cormorant;
+                margin-bottom: 18px;
+
+            }
+           .lorem{
+            font-size: 16px;
+            font-weight: 400px;
+            font-family: mont;
+            margin-bottom: 24px;
+           } 
+           .btn{
+            width: 147px;
+            height: 40px;
+            border: 1px solid white;
+            text-align: center;
+            line-height: 40px;
+            font-size: 14px;
+
+            color: white;
+            transition-duration: 300ms;
+              &:hover {
+                background-color: white;
+            
+                color: #0C0606;
+               }
+            }
+        }
+
+    }
+    .part4{
+        width: 100%;
+        height: 790px;
+        background-color: white;
+        position: relative;
+        padding: 60px 0;
+        .p4-text{
+           width: 100%;
+           height: 340px;
+           background-color: #7796AF33;
+           padding: 24px 12px 24px 40px;
+           position: absolute;
+           top: 390px;
+           left: 0;
+
+           .p4-titr{
+            font-size: 35px;
+            font-weight: 700;
+            font-family: cormorant;
+            color: #0C0606;
+            height: 48px;
+            
+           }
+           .p4-matn{
+            font-size: 16px;
+            font-weight: 500;
+            font-family: mont;
+            color: #0C0606;
+            line-height: 22px;
+            margin-bottom: 32px;
+            
+           }
+           .btn{
+            width: 147px;
+            height: 40px;
+            border: 1px solid #0C0606;
+            text-align: center;
+            line-height: 40px;
+            font-size: 16px;
+
+            color: #0C0606;
+            font-family: mont;
+            transition-duration: 300ms;
+              &:hover {
+                background-color: #0C0606;
+            
+                color: white;
+               }
+            }
+
+
+        }
+        .p4-pic{
+            width: 100%;
+            height: 330px;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            & img{
+                width: 100%;
+                height: 100%;
+            object-fit: cover;
+            }
+
+        }
+    }
+    .part5{
+        width: 100%;
+        height: 674px;
+        position: relative;     
+        
+        .p5-pic{
+            width: 100%;
+            height: 100%;
+            & img{
+                width: 100%;
+                height: 100%;
+            object-fit: cover;
+            }
+        }
+        .p5-text{
+            width: 100%;
+            height: 100%;
+            padding: 248px 60px 0 40px;
+            background-color: rgba(0, 0, 0, 0.588);
+            position: absolute; 
+            top: 0;
+            left: 0;
+            & p{
+                color: white;
+
+            }
+           
+            
+            .p5-titr{
+                font-size: 35px;
+                font-weight: 700;
+                font-family: cormorant;
+                margin-bottom: 17px;
+            }
+           .lorem{
+            font-size: 16px;
+            font-weight: 400px;
+            font-family: mont;
+            margin-bottom: 32px;
+           } 
+           .btn{
+            width: 123px;
+            height: 40px;
+            border: 1px solid white;
+            text-align: center;
+            line-height: 40px;
+            font-size: 14px;
+            color: white;
+            transition-duration: 300ms;
+              &:hover {
+                background-color: white;
+            
+                color: #0C0606;
+               }
+            }
+        }
+
+    }
+    .part6{
+        width: 100%;
+        height: 607px;
+        background-color: white;
+        text-align: center;
+        padding-bottom: 60px;
+        .shop-titr{
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            padding-top: 60px;
+            margin-bottom: 34px;
+            .top-titr{
+                font-family: cormorant;
+                font-size: 32px;
+                font-weight: 400;
+                text-align: center;
+            }
+            .bot-titr{
+                font-family: cormorant;
+                font-style: italic;
+                font-size: 28px;
+                font-weight: 400;
+                padding-top: 10px;
+            }
+        }
+        .cards{
+            width: 1412px;
+            height: 407px;
+            display: flex;
+            column-gap: 40px;
+             overflow-x: auto;      
+            padding: 60px 0 60px 40px;
+            .front-carms {
+                width:249px;
+                height: 387px;
+                          
+                & img{
+                  width: 100%;
+                  height: 276px;
+                  object-fit: contain;
+                  
+              
+                }
+            }
+            .dis{
+                text-align: center;
+                .title{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: rgba(0, 0, 0, 0.701);
+                    font-family: cormorant;
+                }
+                .lorem{
+                    font-size: 22px;
+                    color: #0C0606;
+                    font-weight: 400;
+                    font-family: cormorant;
+
+                }
+                .price{
+                    font-size: 22px;
+                    font-weight: 400;
+                    font-family: cormorant;
+
+
+                }
+
+            }
+
+            
+        }
+    }
+
+
+}

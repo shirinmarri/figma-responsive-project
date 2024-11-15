@@ -1,0 +1,373 @@
+.container{
+    width: 100%;
+    height: 4350px;
+    .pic-top{
+        width: 100%;
+        height: 1143px;
+        margin-top: 80px;
+        position: relative;
+        background-image: url(../fonts/Rectangle3-tablet.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+      
+        .text-on-pic{
+            width: 675px;
+            height: 270px;
+            position: absolute;
+            top: 370px;
+            left: 64px;
+            .top-text{
+                font-size: 80px;
+                font-weight: 400;
+                color: white;
+                font-family: cormorant;
+            }
+            .mid-text{
+                font-family: mont;
+                font-size: 25px;
+                font-weight: 400;
+                color: white;
+                margin-top: 18px;
+                margin-bottom: 38px;
+            }
+            .btn{
+                width: 123px;
+                height: 40px;
+                border: 1px solid white;
+                text-align: center;
+                line-height: 40px;
+                font-size: 14px;
+                font-family: mont;
+                
+                color: white;
+                transition-duration: 300ms;
+                  &:hover {
+                    background-color: white;
+                
+                    color: #0C0606;
+                   }
+                }
+        }
+      
+    }
+    .part-2{
+        width: 100%;
+        height: 442px;
+        padding: 40px 0 56px 0;
+        background-color: white;
+        text-align: center;
+        .shop-titr{
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            .top-titr{
+                font-family: cormorant;
+                font-size: 40px;
+                font-weight: 400;
+                text-align: center;
+            }
+            .bot-titr{
+                font-family: cormorant;
+                font-style: italic;
+                font-size: 28px;
+                font-weight: 400;
+                padding-top: 10px;
+                
+            }
+        }
+        .shop-menu{
+            display: none;
+        }
+        .cards{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            margin: 40px 0 40px 0;
+            justify-content: space-between;
+            padding: 0 60px;
+            .front-carms {
+                width: 19%;
+                height: 200px;
+                          
+                & img{
+                  width: 100%;
+                  height: 157px;
+                  object-fit: contain;
+              
+                }
+                  .hover-pic{
+                    display: none;
+                }
+            
+              & p{
+                font-size: 18px;
+                font-weight: 400;
+                color: #0C0606;
+              }
+              }
+              
+            
+        }
+        .front-carms:hover .active-pic {
+            display: none;
+        }
+        
+        .front-carms:hover .hover-pic {
+            display: block;
+        }
+        
+        .front-carms:hover p {
+            color: rgb(109, 96, 31);
+        }
+
+    }
+    .part3{
+        width: 100%;
+        height: 484px;
+       
+        display: flex;
+        .p3-pic{
+            width: 37%;
+            height: 100%;
+            & img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .p3-text{
+            width: 63%;
+            height: 100%;
+            padding: 32px 12px 0 42px;
+
+            & p{
+                color: white;
+
+            }
+            .article{
+                font-size: 12px;
+                margin-bottom: 47px;
+            }
+            .p3-titr{
+                font-size: 35px;
+                font-weight: 700;
+                font-family: cormorant;
+                margin-bottom: 18px;
+            }
+           .lorem{
+            font-size: 16px;
+            font-weight: 400px;
+            font-family: mont;
+            margin-bottom: 24px;
+           } 
+           .btn{
+            width: 123px;
+            height: 40px;
+            border: 1px solid white;
+            text-align: center;
+            line-height: 40px;
+            font-size: 14px;
+
+            color: white;
+            transition-duration: 300ms;
+              &:hover {
+                background-color: white;
+            
+                color: #0C0606;
+               }
+            }
+        }
+
+    }
+    .part4{
+        width: 100%;
+        height: 493px;
+        background-color: white;
+        display: flex;
+        padding: 56px 0;
+        .p4-text{
+           width: 53%;
+           height: 369px;
+           background-color: #7796AF33;
+           padding: 56px 12px 56px 80px;
+
+           .p4-titr{
+            font-size: 35px;
+            font-weight: 700;
+            font-family: cormorant;
+            color: #0C0606;
+            height: 48px;
+            
+           }
+           .p4-matn{
+            font-size: 16px;
+            font-weight: 500;
+            font-family: mont;
+            color: #0C0606;
+            line-height: 22px;
+            margin-bottom: 32px;
+            
+           }
+           .btn{
+            width: 123px;
+            height: 40px;
+            border: 1px solid #0C0606;
+            text-align: center;
+            line-height: 40px;
+            font-size: 14px;
+
+            color: #0C0606;
+            font-family: mont;
+            transition-duration: 300ms;
+              &:hover {
+                background-color: #0C0606;
+            
+                color: white;
+               }
+            }
+
+
+        }
+        .p4-pic{
+            width: 47%;
+            height: 374px;
+            & img{
+                width: 100%;
+                height: 100%;
+            object-fit: cover;
+            }
+
+        }
+    }
+    .part5{
+        width: 100%;
+        height: 544px;
+       
+        display: flex;
+        margin-bottom: 60px;
+        .p5-pic{
+            width: 40%;
+            height: 100%;
+            & img{
+                width: 100%;
+                height: 100%;
+            object-fit: cover;
+            }
+        }
+        .p5-text{
+            width: 60%;
+            height: 100%;
+            padding: 90px 12px 0 40px;
+
+            & p{
+                color: white;
+
+            }
+           
+            
+            .p5-titr{
+                font-size: 35px;
+                font-weight: 700;
+                font-family: cormorant;
+                margin-bottom: 17px;
+            }
+           .lorem{
+            font-size: 16px;
+            font-weight: 400px;
+            font-family: mont;
+            margin-bottom: 32px;
+           } 
+           .btn{
+            width: 123px;
+            height: 40px;
+            border: 1px solid white;
+            text-align: center;
+            line-height: 40px;
+            font-size: 14px;
+            color: white;
+            transition-duration: 300ms;
+              &:hover {
+                background-color: white;
+            
+                color: #0C0606;
+               }
+            }
+        }
+
+    }
+    .part6{
+        width: 100%;
+        height: 645px;
+        background-color: white;
+        text-align: center;
+        .shop-titr{
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            padding-top: 56px;
+            margin-bottom: 156px;
+            .top-titr{
+                font-family: cormorant;
+                font-size: 40px;
+                font-weight: 400;
+                text-align: center;
+            }
+            .bot-titr{
+                font-family: cormorant;
+                font-style: italic;
+                font-size: 28px;
+                font-weight: 400;
+                padding-top: 10px;
+            }
+        }
+        .cards{
+            width: 100%;
+            height: 200px;
+            display: flex;
+         
+            justify-content: space-between;
+            padding: 60px 0;
+            .front-carms {
+                width: 19%;
+                height: 200px;
+                          
+                & img{
+                  width: 100%;
+                  height: 157px;
+                  object-fit: contain;
+              
+                }
+            }
+            .dis{
+                text-align: center;
+                .title{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: rgba(0, 0, 0, 0.701);
+                    font-family: cormorant;
+                }
+                .lorem{
+                    font-size: 22px;
+                    color: #0C0606;
+                    font-weight: 400;
+                    font-family: cormorant;
+
+                }
+                .price{
+                    font-size: 22px;
+                    font-weight: 400;
+                    font-family: cormorant;
+
+
+                }
+
+            }
+
+            
+        }
+    }
+
+
+}

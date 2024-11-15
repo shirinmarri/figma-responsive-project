@@ -1,0 +1,73 @@
+@import url(./xxlbody.css);
+@import url(./xxlheader.css);
+@import url(./xxlfooter.css);
+
+@font-face {
+    font-family: karla;
+  src: url(../fonts/Karla-Regular.eot);
+  src: url(../fonts/Karla-Regular.ttf);
+  src: url(../fonts/Karla-Regular.woff);
+  src: url(../fonts/Karla-Regular.woff2);
+}
+@font-face{
+  font-family: cormorant;
+  src: url(../fonts/CormorantGaramond-Regular.eot);
+  src: url(../fonts/CormorantGaramond-Regular.ttf);
+  src: url(../fonts/CormorantGaramond-Regular.woff);
+  src: url(../fonts/CormorantGaramond-Regular.woff2);
+
+}
+@font-face{
+  font-family: mont;
+  src: url(../fonts/Montserrat-Thin.eot);
+  src: url(../fonts/Montserrat-Thin.ttf);
+  src: url(../fonts/Montserrat-Thin.woff);
+  src: url(../fonts/Montserrat-Thin.woff2);
+}
+
+
+:root {
+  --font-dark-color: hsba(0, 50%, 5%, 1);
+  --font-light-color: hsba(0, 0%, 100%, 1);
+  --menue-font-color: hsba(0, 0%, 100%, 0.67);
+  --footer-font-color: hsba(0, 0%, 72%, 1);
+  --copy-right-font-color: hsba(0, 0%, 38%, 1);
+  font-family: karla;
+}
+
+.btn {
+  width: 145px;
+  height: 51px;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 51px;
+  color: white;
+  
+  & p {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 51px;
+    color: white;
+  }
+}
+
+.front-carms {
+  width: 19%;
+  height: 337px;
+
+.pic {
+  width: 100%;
+  height: 276px;
+  & img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+}
+& p{
+  font-size: 24px;
+  font-weight: 400;
+  color: #0C0606;
+}
+}

@@ -1,0 +1,14 @@
+@import url(./xxl/xxl.css) screen and (min-width:1200px);
+@import url(./md/md.css) (min-width:768px) and (max-width:1200px);
+@import url(./sm/sm.css) (max-width:768px);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #1c1b17;
+}
+

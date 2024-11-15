@@ -1,0 +1,58 @@
+header {
+    width: 100%;
+    height: 60px;
+    background-color:#1c1b17;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    .headright{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        
+        .icon{
+            display: none;
+        }
+        & svg{
+            width: 32px !important;
+            height: 32px !important;
+        }
+        .search{
+           display: none;
+        }
+    }
+    .headlogo{
+        width: 40%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        & img{
+            object-fit: contain;
+        }
+
+    }
+    .headleft{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & ul{
+           display: none;
+            }
+        .location{
+            display: none;
+        }  
+        .search{
+       display: none;
+        }  
+        }
+
+
+    }

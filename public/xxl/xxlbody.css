@@ -1,0 +1,347 @@
+.container{
+    width: 100%;
+    height: 4700px;
+    .pic-top{
+        width: 100%;
+        height: 833px;
+        margin-top: 80px;
+        position: relative;
+        background-image: url(../fonts/Rectangle\ 3.png);
+        background-position: center;
+        
+      
+        .text-on-pic{
+            width: 675px;
+            height: 270px;
+            position: absolute;
+            top: 370px;
+            left: 64px;
+            .top-text{
+                font-size: 80px;
+                font-weight: 400;
+                color: white;
+                font-family: cormorant;
+            }
+            .mid-text{
+                font-family: mont;
+                font-size: 25px;
+                font-weight: 400;
+                color: white;
+                margin-top: 18px;
+                margin-bottom: 38px;
+            }
+            .btn{
+            transition-duration: 300ms;
+
+           &:hover{
+                background-color: white;
+                & p{
+                    color: #0C0606;
+                }
+            }
+        }
+        }
+      
+    }
+
+    .part-2{
+        width: 100%;
+        height: 620px;
+        background-color: white;
+        text-align: center;
+        padding-top: 60px;
+        .shop-titr{
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            .top-titr{
+                font-family: cormorant;
+                font-size: 40px;
+                font-weight: 400;
+                text-align: center;
+            }
+            .bot-titr{
+                font-family: cormorant;
+                font-style: italic;
+                font-size: 28px;
+                font-weight: 400;
+                padding-top: 10px;
+            }
+        }
+        .shop-menu{
+            display: none;
+        }
+        .cards{
+            width: 100%;
+            height: 337px;
+            display: flex;
+            margin: 44px 0 99px 0;
+            justify-content: space-between;
+            padding: 0 106px;
+            
+            .front-carms {
+                width: 19%;
+                height: 337px;
+                transition: all 500s ease;         
+                & img{
+                  width: 100%;
+                  height: 266px;
+
+                  object-fit: contain;
+                  
+              
+                }
+                .hover-pic{
+                    display: none;
+                }
+              & p{
+                font-size: 24px;
+                font-weight: 400;
+                color: #0C0606;
+              }
+              
+             
+              }
+       
+             
+                    
+        }
+        .front-carms:hover .active-pic {
+            display: none;
+        }
+        
+        .front-carms:hover .hover-pic {
+            display: block;
+        }
+        
+        .front-carms:hover p {
+            color: rgb(109, 96, 31);
+        }
+       
+
+    }
+    .part3{
+        width: 100%;
+        height: 635px;
+        margin-bottom: 69px;
+        display: flex;
+        .p3-pic{
+            width: 37%;
+            height: 100%;
+            & img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .p3-text{
+            width: 63%;
+            height: 100%;
+            padding: 42px 105px 120px 88px;
+
+            & p{
+                color: white;
+
+            }
+            .article{
+                font-size: 19px;
+                margin-bottom: 47px;
+            }
+            .p3-titr{
+                font-size: 35px;
+                font-weight: 700;
+                font-family: cormorant;
+                margin-bottom: 17px;
+            }
+           .lorem{
+            font-size: 22px;
+            font-weight: 400px;
+            font-family: mont;
+            margin-bottom: 55px;
+           } 
+           .btn{
+            transition-duration: 300ms;
+
+            &:hover{
+            background-color: white;
+            
+                color: #0C0606;
+            
+        }
+    }
+        }
+
+    }
+    .part4{
+        width: 100%;
+        height: 642px;
+        background-color: white;
+        display: flex;
+        padding: 71px 0 73px 0;
+        .p4-text{
+           width: 57%;
+           height: 498px;
+           background-color: #7796AF33;
+           padding: 85px 107px 94px 107px;
+
+           .p4-titr{
+            font-size: 45px;
+            font-weight: 700;
+            font-family: cormorant;
+            color: #0C0606;
+            height: 75px;
+            
+           }
+           .p4-matn{
+            font-size: 23px;
+            font-weight: 600;
+            font-family: mont;
+            color: #0C0606;
+            line-height: 28px;
+            margin-bottom: 40px;
+            
+           }
+           .btn{
+            border-color: #0C0606;
+            color: #0C0606;
+            font-weight: 700;
+            transition-duration: 300ms;
+            &:hover{
+                background-color: #0C0606;
+                
+                    color: white;
+                
+            }
+           }
+
+
+        }
+        .p4-pic{
+            width: 43%;
+            height: 498px;
+            object-fit: cover;
+
+        }
+    }
+    .part5{
+        width: 100%;
+        height: 746px;
+        display: flex;
+        .p5-pic{
+            width: 44%;
+            height: 100%;
+            & img{
+                width: 100%;
+                height: 100%;
+            object-fit: cover;
+            }
+        }
+        .p5-text{
+            width: 56%;
+            height: 100%;
+            padding: 104px 115px 0 88px;
+
+            & p{
+                color: white;
+
+            }
+           
+            
+            .p5-titr{
+                font-size: 35px;
+                font-weight: 700;
+                font-family: cormorant;
+                margin-bottom: 17px;
+            }
+           .lorem{
+            font-size: 22px;
+            font-weight: 400px;
+            font-family: mont;
+            margin-bottom: 55px;
+           
+           } 
+           .btn{
+            transition-duration: 300ms;
+              &:hover {
+                background-color: white;
+            
+                color: #0C0606;
+               }
+            }
+        }
+
+    }
+    .part6{
+        width: 100%;
+        height: 720px;
+        background-color: white;
+        text-align: center;
+        .shop-titr{
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            padding-top: 80px;
+            margin-bottom: 156px;
+            .top-titr{
+                font-family: cormorant;
+                font-size: 40px;
+                font-weight: 400;
+                text-align: center;
+            }
+            .bot-titr{
+                font-family: cormorant;
+                font-style: italic;
+                font-size: 28px;
+                font-weight: 400;
+                padding-top: 10px;
+            }
+        }
+        .cards{
+            width: 100%;
+            height: 337px;
+            display: flex;
+            margin: 44px 0 99px 0;
+            justify-content: space-between;
+            padding: 0 106px;
+            .front-carms {
+                width: 19%;
+                height: 337px;
+                          
+                & img{
+                  width: 100%;
+                  height: 256px;
+                  object-fit: contain;
+              
+                }
+            }
+            .dis{
+                text-align: center;
+                .title{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: rgba(0, 0, 0, 0.701);
+                    font-family: cormorant;
+                }
+                .lorem{
+                    font-size: 22px;
+                    color: #0C0606;
+                    font-weight: 400;
+                    font-family: cormorant;
+
+                }
+                .price{
+                    font-size: 24px;
+                    font-weight: 400;
+                    font-family: cormorant;
+
+
+                }
+
+            }
+
+            
+        }
+    }
+
+
+}
