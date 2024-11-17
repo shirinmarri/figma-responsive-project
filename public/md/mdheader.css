@@ -26,6 +26,30 @@ header {
         .search{
            display: none;
         }
+        .heart-hover{
+            display: none;
+        }
+       .user , .bag , .heart{
+        width: 32px;
+        height: 32px;
+       }
+        .user:hover svg{
+               
+                stroke: #B18165;
+        }   
+        .bag:hover svg{
+           
+            stroke: #B18165;
+
+    }  
+    .heart:hover{
+        .heart-default{display: none;}
+    
+    } 
+    .heart:hover{
+        .heart-hover{display: block;}
+    
+    } 
     }
     .headlogo{
         width: 20%;

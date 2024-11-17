@@ -14,7 +14,10 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-       
+
+        .heart-hover , .heart-default{
+            display: none;
+        }
         
         .icon{
             display: none;
