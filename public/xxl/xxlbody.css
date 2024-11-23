@@ -276,6 +276,9 @@
         height: 720px;
         background-color: white;
         text-align: center;
+        .mySwiper{
+            display: none;
+        }
         .shop-titr{
             width: 100%;
             height: 80px;

@@ -16,6 +16,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "swiper": "^11.1.15"
   }
 }

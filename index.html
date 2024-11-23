@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="./public/main.css">
     <link rel="icon" href="./images/image 28.png">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leily-Shah</title>
   </head>
@@ -190,9 +191,33 @@
       </div>
     </div>
     <div class="part6">
+    
       <div class="shop-titr">
         <div class="top-titr">Trending Products</div>
         <div class="bot-titr">Add Featured products to weekly lineup</div>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/WhatsApp Image 2023-10-02 at 17.03.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+          <img src="./images/WhatsApp Image 2023-10-02 at 17.02.jpg" alt="">
+
+          </div>
+          <div class="swiper-slide">
+          <img src="./images/WhatsApp Image 2023-10-02 at 17.03 (1).jpg" alt="">
+
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/WhatsApp Image 2023-10-02 at 17.03 (2).jpg" alt="">
+
+
+          </div>
+        
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
       <div class="cards">
         <div class="front-carms">
@@ -317,5 +342,15 @@
       </div>
     </footer>
    </div>
+   <script src="./swiper/swiper-bundle.min.js"></script>
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1.5,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
   </body>
 </html>
